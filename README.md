@@ -83,6 +83,22 @@ Put this snippet inside Config.Peds in qb-target/config.lua
         },
     },        
 
+Put this in main.lua in qb-cityhall\server\main.lua
+ 
+
+	local AvailableJobs = {
+		"gruppesechs",
+	}
+
+Put this in index.html in qb-cityhall\html\index.html
+
+	<div class="cityhall-job-page">
+                    <div class="job-page-blocks">
+			    .
+			    .
+			    .
+		    	<div class="job-page-block" data-job="gruppesechs"><p>Bank Truck Job</p></div>
+			
 
 # License
 
